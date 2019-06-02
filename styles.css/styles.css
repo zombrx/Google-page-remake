@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    width: 960px;
+    background-color: #333;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: -7px;
+    margin: 5px 1px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    
+  }
+
+  img {
+      margin: 50px auto;
+      padding: 50px 1px;
+  }
+
+  input[type=SearchBar] {
+      width: 315px;
+      position: relative;
+      left: 320px;
+      top: -88px;
+  }
